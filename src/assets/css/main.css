@@ -836,10 +836,26 @@ hr {
 }
 .actualCta a:first-child {
   border:2px solid #fff;
+  transition: background 0.3s ease-in-out;
+}
+.actualCta a:first-child:hover {
+  background: #fff;
+  color: black;
+  transition: background color 0.3s ease-in-out;
 }
 .actualCta a:last-child {
   background:#EE0000;
   margin-left:25px;
+  transition: background 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+.actualCta a:last-child:hover {
+  background: #EE0000;
+  -webkit-box-shadow: 0px 2px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 20px -5px rgba(0,0,0,0.75);
+  transition: box-shadow 0.3s ease-in-out;
 }
 .actualCta {
   display:flex;
@@ -860,7 +876,7 @@ hr {
   color: #999999;
   line-height: 24px;
   margin: unset;
-  max-width: 315px;
+  max-width: 320px;
 }
 .trippleFeatures > div {
   display: flex;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/media/logo.svg';
+import logo from '../../assets/media/logo.png';
 
 class Header extends Component {
   constructor(props) {
@@ -17,11 +17,11 @@ class Header extends Component {
         <div className="topHead">
           <div className="mainHead">
             <div className="navLeft">
-              <NavLink to="/"><img src={'http://www.mafplumbingandheating.co.uk/images/maf_logo_b.png'}/></NavLink>
+              <NavLink to="/"><img src={logo} alt="MAF Plumbing Heating & Gas Services Darlington"/></NavLink>
             </div>
             <div className="navMid">
               <div>
-                <i class="flaticon-technology"></i>
+                <i className="flaticon-technology"></i>
               </div>
               <div>
                 <div>
@@ -32,8 +32,8 @@ class Header extends Component {
               </div>
             </div>
             <div className="navRight">
-              <img src={"https://www.hometeam.co.uk/wp-content/uploads/2015/06/baxi.jpg"}/>
-              <img src={"https://www.cloverleafmaintenance.co.uk/wp-content/uploads/Gas_Safe_Register.svg_.png"}/>
+              <img src={"https://www.hometeam.co.uk/wp-content/uploads/2015/06/baxi.jpg"} alt="baxi certified darlington"/>
+              <img src={"https://www.cloverleafmaintenance.co.uk/wp-content/uploads/Gas_Safe_Register.svg_.png"} alt="gas safe registered engineers darlington"/>
             </div>
           </div>
         </div>

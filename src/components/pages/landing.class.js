@@ -39,17 +39,17 @@ export default class Landing extends Component {
             </div>
             <div className="trippleFeatures">
               <div>
-                <i class="flaticon-bathroom"></i>
+                <i className="flaticon-bathroom"></i>
                 <h4>Bathroom Services</h4>
                 <p>Increase your property’s value and create a bathroom you’ll love. The products we use are of the highest quality and take care of every detail.</p>
               </div>
               <div>
-                <i class="flaticon-construction"></i>
+                <i className="flaticon-construction"></i>
                 <h4>Plumbing Services</h4>
-                <p>We provide a comprehensive choice of pluming services throughout Country Durham, Middlesbrough, Stockon, Richmond and Catterick.</p>
+                <p>We provide a comprehensive choice of pluming services throughout County Durham, Middlesbrough, Stockon, Richmond and Catterick.</p>
               </div>
               <div>
-                <i class="flaticon-gas-pipe"></i>
+                <i className="flaticon-gas-pipe"></i>
                 <h4>Gas & Heating Services</h4>
                 <p>We cover a wide range of services, from installing radiators and boilers to maintaing appliances, repairing gas leaks and issuing safety certificates.</p>
               </div>
